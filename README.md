@@ -1,6 +1,10 @@
 # Spotify download bot
 A telegram bot for downlaoding spotify playlist songs on telegram.
 
+The Easy Way
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## How to setup on heroku
 1. create a telegram bot using [bot father](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
 1. Create account on heruko.com
