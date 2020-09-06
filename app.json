@@ -19,12 +19,12 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "1667813"
             "required": false
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "1f6921c27bf6cd01aba471a14ff33bcb"
             "required": false
         },
         "API_KEY": {
