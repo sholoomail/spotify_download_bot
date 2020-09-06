@@ -15,17 +15,14 @@
         "APP_NAME": {
             "description": "Your Heroku App Name",
             "value": "tm-spotifybot"
-            "required": false
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "value": "1667813"
-            "required": false
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "value": "1f6921c27bf6cd01aba471a14ff33bcb"
-            "required": false
         }
     },
     "addons": [],
