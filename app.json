@@ -1,0 +1,47 @@
+{
+    "name": "TM Spotify Bot",
+    "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
+    "keywords": [
+        "telegram",
+        "tm-Spotifybot"
+    ],
+    "website": "https://github.com/odunamattuvitruvena/spotify_download_bot",
+    "repository": "https://github.com/Glyphack/spotify_download_bot",
+    "env": {
+        "TOKEN": {
+            "description": "Your bot token",
+            "value": "1270926748:AAHt7VA2WdjnUzSAtE1oBJyL1hrUkjIXiNk"
+        },
+        "APP_NAME": {
+            "description": "Your Heroku App Name",
+            "value": "tm-spotifybot"
+            "required": false
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+            "required": false
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+            "required": false
+        },
+        "API_KEY": {
+            "description": "Get API key from https://gplinks.in/member/tools/api",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
