@@ -18,7 +18,7 @@ def setup_logging():
 
 
 def start(update: Update, context: CallbackContext):
-    update.effective_message.reply_text("Hello....!!/nThis is the <a href="https://telegram.dog/TM_SpotifyBot">TM Spotify Bot</a>. This Bot was created by <a href="https://telegram.dog/TM_Adminz">TM_Admin</a>, the genius of the world.")
+    update.effective_message.reply_text("Hello....!!/nThis is the @TM_SpotifyBot. This Bot was created by @TM_Adminz, the genius of the world.")
     context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="Available Commands:/n/playlist/n/song/n/album/n/nSend Link Like This,/n/playlist [url]/n/nExample:/n/playlist https://open.spotify.com/playlist/37i9dQZF1DZ06evO2GbnbB?si=bTc1lwG2T9mv-XA_vP0Psg"
